@@ -34,7 +34,6 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          required
           placeholder="Search for a word..."
           name="word"
         />
