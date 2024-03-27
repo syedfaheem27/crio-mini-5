@@ -31,7 +31,7 @@
 p{
     text-align: center;
 }
-.container {
+.weather-cards {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
@@ -39,7 +39,7 @@ p{
     margin: 1rem 0;
     flex-wrap: wrap;
 }
-.weather-cards{
+.weather-card{
     padding: 1rem 1.5rem;
     background-color: #ffff;
     box-shadow: 2px 2px 4px  rgba(128, 128, 128, 0.304);
@@ -52,10 +52,10 @@ p{
     text-align: center;
 
 }
-.weather-cards>div:first-child{
+.weather-card>div:first-child{
     font-weight: bold;
 }
-.weather-cards>div{
+.weather-card>div{
     background-color: inherit;
     
 }

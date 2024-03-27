@@ -61,7 +61,7 @@ function App() {
       </form>
       {isLoading && <p>Loading data...</p>}
       {!isLoading && weatherData.length > 0 && (
-        <div className="container">
+        <div className="weather-cards">
           {weatherData.map((data, id) => {
             return <WeatherCard key={id} label={data.label} data={data.data} />;
           })}
